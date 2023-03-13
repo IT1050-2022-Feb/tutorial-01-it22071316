@@ -20,12 +20,10 @@ int main()
   printf("Enter number : ");    //prompt user
     scanf("%d",&num);    //reads input
 
-  while (num  > 0)
+  while(num > 0)
     {
-    	sum = sum + num;  //calculation
-    	num -- ;
+      sum = sum + num;     //calculation
     }
-
 
   printf("Sum : %d",sum);    //output
   return 0;
